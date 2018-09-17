@@ -1,0 +1,78 @@
+.flippable-content {
+    .container {
+        padding: 100px 0;
+        .row {
+            background-color: white;
+            .col-md-6.content {
+                padding: 3em;
+            }
+            .col-md-6 {
+                h3 {
+                    font-family: 'Gotham-Book', sans-serif;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 24px;
+                    text-align: left;
+                    padding-bottom: 30px;
+                    color: #525252;
+                    margin-bottom: 0;
+                }
+                p {
+                    font-family: 'Gotham-Book', sans-serif;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 21px;
+                    text-align: left;
+                    color: #525252;
+                    padding-bottom: 30px;
+                    margin-bottom: 0;
+                }
+                p:last-child {
+                    padding-bottom: 0;
+                }
+                a {
+                    display: inline-block;
+                    border: 2px solid rgba(159, 159, 159, 0.4);
+                    border-radius: 6px;
+                    padding: 5px 30px;
+                    font-family: 'Gotham-Medium', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 28px;
+                }
+                a:hover {
+                    text-decoration: none;
+                    background: #0567a6;
+                    color: #fff;
+                    border: 2px solid #0567a6;
+                    transition: 0.3s all;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+            .col-md-6.image {
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .flippable-content .container .col-md-6 {
+        a {
+            padding: 6px 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-top: 13px;
+            margin-bottom: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .flippable-content .container {
+        padding: 1.25em 0;
+    }
+}

@@ -1,0 +1,486 @@
+/*------- Media Queries -------*/
+
+@media (min-width: 1200px) {
+    .container.menu .col-md-2 {
+        width: 17.2%;
+    }
+    /* What page is this for? It was causing the carousel to cutoff incorrectly */
+    /* main ul {
+        column-count: 2;
+    } */
+    .getquote_widget .getquote_widget_text a {
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .sub_level_nav ul li a {
+        padding: 15px 19px;
+        font-size: 14px;
+    }
+    .sub_level_nav ul li.dropdown a:after {
+        font-size: 23px;
+        right: -2px
+    }
+    .sub_level_nav ul.dropdown-menu li a {
+        padding: 5px 17px;
+    }
+    main ul {
+        column-count: 2!important;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .retirement.fiftyone_existing .col-md-6 .contact_email a {
+        font-size: 14px;
+    }
+    nav.scrolled_nav .container a {
+        padding: 20px 22px;
+    }
+    .inner_page nav.scrolled_nav.not-sticky a {
+        padding: 30px 21px;
+    }
+    .contact.col-md-6 input[type="text"],
+    .contact .selectdiv {
+        width: 47.8%;
+    }
+    .overlay_for_icon {
+        top: 20px;
+    }
+    .col-md-6 .contact_header,
+    .contact .contact_header {
+        height: 50px;
+    }
+    header .top_menu .container {
+        width: 1000px;
+    }
+    .retirement .col-md-6 .contact_name {
+        margin-top: 10px;
+    }
+    .retirement .col-md-6 {
+        padding: 75px 65px;
+    }
+    .five_fifty_existing .col-md-6:last-child {
+        padding: 44px 70px 35px !important;
+    }
+    .five_fifty_existing .col-md-6:first-child {
+        padding: 70px 60px 131px;
+    }
+    header .container .col-md-6 h1 {
+        font-size: 48px;
+    }
+    .col-md-6 .guidelines,
+    .col-md-6 p.guidelines_header {
+        width: 90%;
+    }
+    .col-md-3 .guidelines {
+        margin-bottom: 60px;
+    }
+    .col-md-6 p.guidelines_header {
+        margin-bottom: 0px;
+    }
+    .container.menu .col-md-2 p {
+        font-size: 14px;
+    }
+    .fiftyone_existing .col-md-6:last-child {
+        padding: 70px 70px 50px!important; 
+    }
+}
+
+@media screen and (max-width: 445px) and (min-width: 360px) {
+    header .container .col-md-6 h1 {
+        font-size: 28px;
+    }
+    main h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .business_size.insurance .container,
+    .business_size.tufts_broker .container,
+    .business_size.one_4results .container {
+        width: 970px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .navbar-nav {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .business_size .container .col-md-4,
+    .business_size .container .col-md-6 {
+        margin-right: 7px;
+    }
+    .inner_page nav.scrolled_nav.not-sticky a {
+        font-size: 13px;
+        padding: 29px 13px;
+    }
+    header .nav>li>a {
+        padding: 10px
+    }
+    header .container .col-md-6 h1 {
+        margin-top: 0;
+    }
+    .navbar-text {
+        margin-top: 0;
+    }
+    nav.scrolled_nav .container a {
+        font-size: 14px;
+        padding: 20px 11px;
+    }
+    nav.scrolled_nav .navbar-nav {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    header .container:not(.menu):not(.scrolled_nav_container) {
+        padding: 10px 0;
+        max-width: 991px
+    }
+    .contact .selectdiv:after {
+        left: 87%;
+    }
+    #download_buttons .col-md-6,
+    #download_buttons .col-md-4 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .two_column.container .col-md-9 {
+        padding-right: 0
+    }
+    .video_image {
+        position: relative;
+    }
+    .sub_level_nav .navbar-nav {
+        margin-top: 0px; 
+    }
+    .sub_level_nav ul li a {
+        padding: 15px 13px;
+        font-size: 11px;
+    }
+    .col-md-3  .contact .selectdiv:after {
+        left:93%;
+    }
+    .video_image .overlay_for_icon {
+        left: 0%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .subscribe {
+        display: block;
+        margin-top: 30px;
+    }
+    .retirement .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer_bottom .col-md-1 {
+        width: 10%;
+        display: inline;
+    }
+    .footer {
+        padding-bottom: 40px;
+    }
+    .container.menu .col-sm-4:nth-child(2n) {
+        margin-right: 0 !important;
+    }
+    .information {
+        height: auto;
+    }
+    .guideline-info,
+    .document-info {
+        padding: 23px 55px 23px 25px;
+    }
+    .guideline h6,
+    .document h6,
+    .guideline p,
+    .document p,
+    .video p {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .panel-default>.panel-heading {
+        padding: 15px 25px;
+    }
+    .panel-default {
+        border-color: #06324b;
+    }
+    .panel-title {
+        font-size: 17px;
+    }
+    .business_size {
+        padding-bottom: 40px;
+    }
+    .container.menu .col-sm-4 {
+        padding: 10px 15px;
+        margin-right: 40px;
+        box-sizing: initial;
+        margin-bottom: 10px;
+        width: 39.333333%;
+    }
+    #accordion {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 0;
+        z-index: 999999;
+    }
+    .container.menu {
+        width: 520px;
+    }
+    .navbar {
+        margin-bottom: 0;
+    }
+    header .container .col-md-6.header_text {
+        margin-top: 0;
+    }
+    .hidden-md-lg {
+        display: block;
+    }
+    header .container .col-md-6 h1 {
+        font-size: 38px;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5px;
+    }
+    .col-md-6.header_text p {
+        text-align: center;
+    }
+    .broker_guidelines,
+    .featured_document,
+    .helping_broker {
+        display: none;
+    }
+    footer .col-md-5 p {
+        width: 100%;
+    }
+    .one_4results .row .col-md-5 {
+        padding: 30px 0;
+    }
+    .one_4results .row .line {
+        display: none;
+    }
+    .one_4results .row .col-md-2 {
+        height: 0;
+    }
+    .one_4results .row .wordwrapper {
+        height: 0;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .scrolled_nav,
+    .desktop_menu {
+        display: none !important;
+    }
+    /* What page is this for?*/
+    main ul {
+        column-count: 1
+    }
+    .container.menu .col-md-2 p {
+        font-size: 14px;
+    }
+    .links {
+        column-count: 1
+    }
+    main h4 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    main h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .subscribe input[type="text"] {
+        width: 70%;
+    }
+    header .container .col-md-6 h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .overlay-content {
+        width: 90%;
+    }
+    .overlay .closebtn {
+        right: 5%;
+    }
+    .business_size .container .col-md-4,
+    .business_size .container .col-md-6 {
+        width: 100%;
+        width: -moz-available;
+        /* WebKit-based browsers will ignore this. */
+        width: -webkit-fill-available;
+        /* Mozilla-based browsers will ignore this. */
+        width: fill-available;
+        margin-bottom: 5%;
+    }
+    .col-md-6.header_text p {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .panel-default {
+        border: none;
+    }
+    .mobile_menu {
+        display: block;
+    }
+    div.search_menu_item {
+        display: inline-block;
+    }
+    div.search_menu_item {
+        position: absolute;
+        right: 80px;
+        top: 18px;
+    }
+    /* .subscribe {
+         display: block;
+         margin-top: 30px;
+         }*/
+    .subscribe .form_inputs {
+        width: auto;
+        margin-top: 10px;
+    }
+    .footer_bottom {
+        padding: 20px 0;
+    }
+    .business_size .container .col-md-4 {
+        margin: 20px auto;
+    }
+    .menu1 {
+        background: none;
+        position: static;
+        width: 100%;
+    }
+        .navbar.sub_level_nav {
+        display: none;
+    }
+    div.search_menu_item {
+        right: 100px;
+    }
+    header.inner_page {
+        background-image: none;
+        height: auto;
+        background-color: #fff;
+    }
+    header.inner_page .top_menu {
+        background: none;
+    }
+    header.inner_page .navbar-toggle.collapsed .icon-bar {
+        background: #1068a7;
+    }
+    header.inner_page.navbar-nav li.search_menu_item a, 
+    header.inner_page div.search_menu_item a {
+        color:#1068a7;
+    }
+    .two_column.container {
+        padding-top: 0px!important;
+    }
+    main ul {
+        column-count: 1!important;
+    }
+    header.inner_page .navbar.mobile_menu .container-fluid {
+        padding-left: 30px; 
+        padding-right: 50px;
+    }
+    .col-md-9 .doctorslove {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-height:700px) {
+    header .container:not(.menu):not(.scrolled_nav_container) {
+        padding: 20px 0 !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .retirement input[type="text"],
+    .retirement select {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .col-md-6.header_text p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    header .container .col-md-6 h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container.menu .col-sm-4 {
+        padding: 15px 5px;
+        margin-right: 10px;
+        width: 44.5%;
+    }
+    .contact.col-md-6 input[type="text"],
+    .contact.col-md-6 .selectdiv {
+        width: 100%;
+    }
+    .container.menu {
+        width: auto;
+    }
+    .container.menu .menu_icon {
+        height: 40px;
+        width: auto;
+    }
+    .menu1 {
+        background: none;
+        bottom: auto;
+    }
+    .col-md-6.header_text p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    header .container .col-md-6 h1 {
+        font-size: 52px;
+        margin-top: 0;
+    }
+        .col-md-3 .contact .selectdiv:after {
+        left:90%;
+    }
+    .col-md-9 #download_buttons a .fa {
+        right: 10px;
+        top: 31%;
+    }
+    .col-md-9 #download_buttons a img {
+        padding: 10px;
+    }
+    .col-md-9 #download_buttons .col-md-6, 
+    .col-md-9 #download_buttons .col-md-4 {
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    header .container:not(.menu) {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container.menu .col-md-2 p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    header .container .col-md-6 h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 667px) {
+    .container.menu .col-sm-4 {
+        padding: 9px 5px;
+    }
+}

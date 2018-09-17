@@ -1,4 +1,5 @@
-prdxn-dev-framework
-===================
+# broker-demo
 
-PRDXN's "starting package" used for development.
+----
+## Contributing
+- Create feature branches and submit pull requests against dev.

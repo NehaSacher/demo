@@ -1,0 +1,38 @@
+.carousel {
+    text-align: center;
+    padding-top: 4%;
+    .container p {
+        font-family: 'Gotham-Book', sans-serif;
+        color: #525252;
+        font-size: 20px;
+        line-height: 20px;
+        width: 80%;
+        margin: 4% auto 50px;
+        span {
+            font-family: 'Gotham-Medium', sans-serif;
+            color: #0567a6;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+        }
+        .bx-wrapper {
+            padding-bottom: 3%;
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .carousel{
+        .container p {
+            font-size: 17px;
+            margin: 4% auto 20px;
+        }
+    }
+}
+
+@media screen and (max-width:550px) {
+    .carousel .container p span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

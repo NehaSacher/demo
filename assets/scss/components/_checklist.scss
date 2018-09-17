@@ -1,0 +1,72 @@
+.checklist {
+    text-align: center;
+    padding-top: 6%;
+    ul {
+        list-style: none;
+        text-align: left;
+        margin-bottom: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            display: flex;
+            width: 32.4%;
+            font-family: 'Gotham-Book', sans-serif;
+            color: #525252;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 20px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            padding: 20px 40px;
+            img {
+                align-self: center;
+                padding-right: 15px;
+                height: auto;
+            }
+        }
+    }
+    .container {
+        padding-top: 35px
+    }
+}
+
+.checklist.gray ul li {
+    box-shadow: 0 0px 10px 0px #ccc;
+    -moz-box-shadow: 0 0px 10px 0px #ccc;
+    -webkit-box-shadow: 0 0px 10px 0px #ccc;
+    background: #fff;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+    .checklist ul li {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .checklist {
+        .container {
+            padding-top: 10px;
+        }
+        ul {
+            margin-bottom: 30px;
+            li {
+                width: 99% !important;
+                display: flex;
+                text-align: left;
+                padding: 10px 40px;
+                align-items: center;
+                margin: 10px 10px 0;
+            }
+            i {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .checklist ul li {
+        padding: 10px 30px;
+    }
+}

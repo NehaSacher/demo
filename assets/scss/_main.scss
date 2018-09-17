@@ -1,0 +1,41 @@
+/*--------- Main ---------*/
+
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    color: #fff;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #e8e8e8;
+}
+
+main {
+    background: #fff;
+    hr{
+        border-top: 2px solid #ddd;
+        margin: 0 auto;
+    }
+}
+
+a:focus,
+a:hover {
+    text-decoration: none !important;
+}
+
+:focus {
+    outline: none !important;
+}
+
+.hide {
+    display: none;
+}
+
+.gray {
+    background-color: #f3f3f3;
+}
+
+/*------- End Main -------*/

@@ -1,0 +1,77 @@
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    padding-bottom: 7%;
+    margin-bottom: 0;
+    img {
+        margin: 0 auto 50px;
+    }
+    .bx-prev {
+        background: url('../images/prev.png') no-repeat;
+        /* KPATH: /THP/media/Assets/Shared/BrokerSite/prev.png */
+        left: 70px;
+    }
+    .bx-next {
+        background: url('../images/next.png') no-repeat;
+        /* KPATH: /THP/media/Assets/Shared/BrokerSite/next.png */
+        right: 70px;
+    }
+    .bx-next:hover,
+    .bx-next:focus {
+        background-position: 0 0;
+    }
+    .bx-pager,
+    .bx-controls-auto {
+        bottom: 0;
+        position: relative;
+    }
+    .bx-pager.bx-default-pager a {
+        width: 23px;
+        height: 23px;
+        border-radius: 11px;
+        border: 1px solid #d7d7d7;
+        background: transparent;
+    }
+    .bx-pager.bx-default-pager a:hover,
+    .bx-pager.bx-default-pager a.active,
+    .bx-pager.bx-default-pager a:focus {
+        background: #515151;
+        transition: 0.3s all;
+    }
+}
+
+.bx-viewport {
+    height: auto !important;
+}
+
+@media screen and (max-width:991px) {
+    .bx-wrapper .bx-controls-direction a {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bxslider li .container {
+        padding: 20px 30px;
+    }
+    .bx-wrapper {
+        .bx-pager {
+            padding-top: 0
+        }
+        img {
+            margin: 0 auto;
+        }
+        .bx-next {
+            right: 0;
+        }
+        .bx-prev {
+            left: 10px;
+        }
+    }
+    .bx-controls.bx-has-controls-direction.bx-has-pager {
+        height: 0;
+    }
+}
